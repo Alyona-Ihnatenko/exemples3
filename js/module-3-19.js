@@ -10,7 +10,7 @@ const products = [
   const total=[];
     for(const product of products){
      for(const key in product){
-         if(product(key)===propName){
+         if(key===propName){
              total.push(product[key]);
          }
      }
